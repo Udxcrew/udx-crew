@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UDX Crew — Eskişehir</title>
+  <meta name="description" content="UDX Crew — Eskişehir Urban Gelişim Grubu. Sür, geliş, birlikte öğren.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#anasayfa">
+      <img src="logo.png" alt="UDX Crew">
+    </a>
+    <nav>
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#crew">Crew</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#katil" class="nav-cta">Ekibe Katıl</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="anasayfa" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ESKİŞEHİR • UDX CREW</p>
+        <h1>URBAN.<br><span>GELİŞİM.</span><br>CREW.</h1>
+        <p class="lead">Birlikte sürüyoruz. Birlikte öğreniyoruz. Birlikte gelişiyoruz.</p>
+        <div class="actions">
+          <a href="#katil" class="button">EKİBE KATIL</a>
+          <a href="#hakkimizda" class="button ghost">BİZ KİMİZ?</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="launch-poster.png" alt="UDX Crew tanıtım posteri">
+      </div>
+    </section>
+
+    <section id="hakkimizda" class="section">
+      <div>
+        <p class="eyebrow">01 / HAKKIMIZDA</p>
+        <h2>SADECE SÜRMEK DEĞİL.<br><span>GELİŞMEK.</span></h2>
+      </div>
+      <p class="section-text">UDX Crew, Eskişehir'de urban sürüş, bisiklet gelişimi ve birlikte öğrenme amacıyla kurulan bir bisiklet ekibidir. Amacımız güvenli, saygılı ve gelişime açık bir ortamda birlikte sürmek.</p>
+    </section>
+
+    <section id="crew" class="dark-section">
+      <div class="section-head">
+        <p class="eyebrow">02 / CREW</p>
+        <h2>UDX CREW</h2>
+      </div>
+      <div class="cards">
+        <article><b>01</b><h3>BİRLİKTE SÜR</h3><p>Yeni rotalar keşfet, sürüşlerini paylaş.</p></article>
+        <article><b>02</b><h3>BİRLİKTE ÖĞREN</h3><p>Teknikleri, ayarları ve deneyimleri birbirimizle paylaş.</p></article>
+        <article><b>03</b><h3>BİRLİKTE GELİŞ</h3><p>Daha iyi sürücüler olmak için birbirimizi destekle.</p></article>
+      </div>
+    </section>
+
+    <section id="galeri" class="section gallery">
+      <div class="section-head">
+        <p class="eyebrow">03 / GALERİ</p>
+        <h2>SÜRÜŞLERDEN.</h2>
+      </div>
+      <div class="gallery-box">
+        <span>Yakında UDX Crew sürüşleri burada.</span>
+      </div>
+    </section>
+
+    <section id="katil" class="join">
+      <div>
+        <p class="eyebrow">04 / KATIL</p>
+        <h2>UDX'E<br><span>KATIL.</span></h2>
+        <p>Ekibe katılmak istiyorsan formu doldur. Başvuruları değerlendirdikten sonra seninle iletişime geçeceğiz.</p>
+      </div>
+      <form onsubmit="event.preventDefault(); alert('Başvurun hazır! Form sistemi yakında bağlanacak.');">
+        <label>Ad / Takma ad<input required type="text" placeholder="Örn. Ferdi"></label>
+        <label>Instagram kullanıcı adı<input type="text" placeholder="@kullaniciadi"></label>
+        <label>Sürüş tarzın<select><option>Urban</option><option>MTB</option><option>Downhill</option><option>Karışık</option></select></label>
+        <label>Neden UDX'e katılmak istiyorsun? <textarea rows="4"></textarea></label>
+        <button class="button" type="submit">BAŞVURU GÖNDER</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <strong>UDX CREW</strong>
+    <span>ESKİŞEHİR • URBAN GELİŞİM GRUBU</span>
+    <span>© 2026 UDX Crew</span>
+  </footer>
+</body>
+</html>
